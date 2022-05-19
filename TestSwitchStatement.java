@@ -5,9 +5,8 @@ public class TestSwitchStatement {
 	public static void main(String[] args) {
 	
 		SwitchStatement objSwitchStatement = new SwitchStatement();
-		objSwitchStatement.daysInAWeek();
+		objSwitchStatement.daysInAWeek(8);
 		
 
 	}
-
 }

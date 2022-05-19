@@ -4,7 +4,7 @@ public class SwitchStatement {
 	
 	int intday = 1;
 	
-	public void daysInAWeek() {
+	public void daysInAWeek(int intday) {
 		 
 		switch(intday) {
 		
@@ -35,6 +35,14 @@ public class SwitchStatement {
 		case 7:
 			System.out.println("7th day is Saturday");
 			break;
+			
+		case 8:
+			if(intday<7) {
+				System.out.println("Dispaly the day names");
+			}
+			else {
+				System.out.println("Null value");
+			}
 			
 		}
 	}

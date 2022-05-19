@@ -9,10 +9,10 @@ public class IfStatement {
 		int intArtsStudentList = 150;
 		int intCommerceStudentList = 90;
 		
-		int totallStudentList = intScienceStudentList + intArtsStudentList + intCommerceStudentList;
+		int inttotallStudentList = intScienceStudentList + intArtsStudentList + intCommerceStudentList;
 		
-		if (totallStudentList > 300) {
-			System.out.println("The total students list get display:" +totallStudentList);
+		if (inttotallStudentList > 300) {
+			System.out.println("The total students list get display:" +inttotallStudentList);
 		}
 	}
 	
