@@ -1,8 +1,39 @@
 package com.vstl.javatraining;
 
 public class DoWhileLoop {
-	//3. while loop
+	//3. do while loop
         //proper execution
+	
+	public void findStudentUsingDoWhileLoop() {
+		String strArray[] = {"Sita","Sarita","Tanvi","Shruti","Rani","Ritu"};
+		
+		int intCounter=2;
+		do {
+			if(strArray[intCounter].equals("Tanvi")){
+				System.out.println("Tanvi is present");
+					break;	
+			}
+			intCounter++;
+		}
+			while(strArray.length<intCounter);
+	}
+	
+	  
+	// using Each loop
+	public void findStudentUsingEachLoop() {
+		String strArray[] = {"Sita","Sarita","Tanvi","Shruti","Rani","Ritu"};
+		
+		for (String string : strArray) {
+			
+			if(string.equals("Ritu")) {
+				System.out.println("Ritu is present");
+				break;
+			}
+		}
+	}
+	
+		
+		//Example
 	public void doctorsInTheBelgaumCity() {
 		int intDoctors = 1;
 		do {
@@ -10,7 +41,7 @@ public class DoWhileLoop {
 			intDoctors++;
 			}
 		
-	while(intDoctors<=15) ;
+	          while(intDoctors<=15) ;
             }
 
         //it is having the the error but it will get execute at least one time
